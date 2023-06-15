@@ -16,7 +16,7 @@ package test2;
  *  	5단계 : 위와 같이 최종 숫자가 하나 남을 때까지 반복 수행
  */
 
-public class Test04 {
+public class Test04_ArrayTamp2 {
 
 	public static void main(String[] args) {
 		

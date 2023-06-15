@@ -19,7 +19,7 @@ import java.util.Scanner;
  * 정리 한번 더 해야됨(이해 하고 넘어가기)
  */
 
-public class Test05 {
+public class Test05_ArrayMid {
 
 	public static void main(String[] args) {
 		
