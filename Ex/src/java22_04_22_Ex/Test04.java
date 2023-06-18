@@ -3,13 +3,6 @@ package java22_04_22_Ex;
 import java.util.Scanner;
 
 // 직각 삼각형 찍기 
-<<<<<<< HEAD
-=======
-/*
- * 1. 내가 푼거에서 ArrayIndexOutOfBounds게 안터지게 하려고 한다면?
- * 2. 2,4번의 정확한 의미를 알아낼것
- * 3. 기근쌤 코드 확실히 이해하고 넘어갈것.
- */
 /*
  * 1. 내가 푼거에서 ArrayIndexOutOfBounds게 안터지게 하려고 한다면?
  * 2. 2,4번의 정확한 의미를 알아낼것
