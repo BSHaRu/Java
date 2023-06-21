@@ -1,4 +1,7 @@
-package sub3;
+package sub4;
+
+import sub3.Calc;
+import sub3.Car;
 
 /*
  * ³¯Â¥ : 2023/06/20
