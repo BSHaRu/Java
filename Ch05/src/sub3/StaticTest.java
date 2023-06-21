@@ -12,6 +12,8 @@ package sub3;
  * 싱글톤 객체(singleton)
  *  - static을 활용한 싱글톤 객체는 오직 하나의 인스턴스로 메모리상에 존재 한다.
  *  - 싱글톤 객체를 사용해서 메모리 절약과 성능 향상을 기대한다.
+ *  	-> 단 한번만 new로 인스턴스 생성한 후 계속 쓸 수 있음
+ *  - 전역변수로 선언해서 다른 클래스에서 사용되기 쉬움
  *  
  */
 public class StaticTest {
@@ -49,7 +51,7 @@ public class StaticTest {
 		Calc c2 = Calc.getInstance();
 
 		int result1 = c1.plus(1, 2);
-		int result2 = c1.minus(1, 2);
+		int result2 = c2.minus(1, 2);
 
 		System.out.println("result1: " + result1);
 		System.out.println("result2: " + result2);
