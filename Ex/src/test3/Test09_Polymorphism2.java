@@ -32,6 +32,7 @@ public class Test09_Polymorphism2 {
 		Circle circle = new Circle();
 		Triangle triangle = new Triangle();
 		
+		
 		here.draw(circle);
 		here.draw(triangle);
 	}

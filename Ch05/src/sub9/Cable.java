@@ -5,6 +5,7 @@ public class Cable implements Socket{
 	private Bulb bulb;
 	
 	public Cable(Bulb bulb) {
+		// bulb √ ±‚»≠...
 		this.bulb = bulb;
 	}
 	
