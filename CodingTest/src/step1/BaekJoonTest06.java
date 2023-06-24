@@ -23,6 +23,7 @@ public class BaekJoonTest06 {
 		System.out.println(div);
 		System.out.println(rest);
 		
+		sc.close();
 	}
 
 }

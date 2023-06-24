@@ -15,6 +15,7 @@ public class BaekJoonTest07 {
 			String Id = str2+"??!"; 
 			System.out.println(Id);
 		}
+		sc.close();
 	}
 
 }

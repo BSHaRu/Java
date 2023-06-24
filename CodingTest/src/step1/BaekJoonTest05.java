@@ -7,12 +7,13 @@ public class BaekJoonTest05 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		double a = sc.nextInt();
-		double b = sc.nextInt();
+		int a = sc.nextInt();
+		int b = sc.nextInt();
 		
-		double c = a / b;
+		double c = (double)a / b;
 		
 		System.out.println(c);
+		sc.close();
 	}
 
 }
