@@ -1,4 +1,4 @@
-package inheritance;
+package inheritance.override;
 
 /*
  *  상속을 받고, 오버라이딩을 하였어도 

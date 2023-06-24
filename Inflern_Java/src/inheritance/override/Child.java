@@ -1,4 +1,4 @@
-package inheritance;
+package inheritance.override;
 
 public class Child extends Parent {
 	int i = 15;

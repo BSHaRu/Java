@@ -1,4 +1,4 @@
-package inheritance;
+package inheritance.override;
 
 public class Parent {
 	int i = 5;
