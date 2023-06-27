@@ -34,9 +34,9 @@ class Item implements Comparable{
 				", price=" + price + "]";
 	}
 
-	// 파라미터로 들어온 Object와 내 자신을 비교하는 메서드
-	// compareTo는 Object를 받아들이도록 했지만, 여기선 실제로 Item이 들어옴
-	// -> 글자 순으로 비교
+	// compareTo() : 파라미터로 들어온 Object와 내 자신을 비교하는 메서드
+	// -> Object를 받아들이도록 했지만, 여기선 다운캐스팅해서 Item이 들어옴
+	// => 글자 순으로 비교
 //	@Override
 //	public int compareTo(Object o) {
 //		Item a = (Item) o;
@@ -52,16 +52,25 @@ class Item implements Comparable{
 }
 
 // Arrays.sort(itmes, new ItemSorter()); 쓸라면 이게 필요함
+// Interface Comparator<T>
+//  : 메소드가 1개뿐이라서 람다식으로도 정의가 가능하다.
+// -> o1이랑 o2를 전체적으로 비교를 해줌
+// 어떻게? => return을 통해서 정해주는거임
+// -> Arrays.sort로 정렬이 가능함
 class ItemSorter implements Comparator{
 
 	// o1 - o2를 해서 양수 / 0 / 음수값으로 비교해줌
+	// Returns:
+//	the value 0 if x == y; 
+//	a value less than 0 if x < y; 
+//	and a value greater than 0 if x > y
 	@Override
 	public int compare(Object o1, Object o2) {
 		Item item1 = (Item) o1;
 		Item item2 = (Item) o2;
 		// item1이랑 item2의 이름을 비교
 		// -> Arrays.sort(itmes, new ItemSorter())하면 
-		// 이름기준으로 오름차순해서 정렬해줌
+		// 이름기준으로 오름차순해서 정렬해줌(정렬은 sort가 정렬해줌)
 		return item1.getName().compareTo(item2.getName());
 	}
 }
@@ -88,5 +97,6 @@ public class Arrays03 {
 		for(Item i : itmes) {
 			System.out.println(i);
 		}
+		
 	}
 }
