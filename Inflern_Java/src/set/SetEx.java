@@ -21,6 +21,7 @@ public class SetEx {
 		* => 이 Object의 equals()와 hashCode()는 아무런 쓸모없음
 		* 	==> 그래서 Override로 재정의를 안하면
 		* 		제대로 된 중복값을 확인 못함
+		* String 경우는 정의가 다르게 되어있기때문에 재정의안해도 중복인식함
 		* ∴ Hash 라는 키워드가 나오면 
 		* 	equals()와 hashCode()를 재정의 해주기!! 
 		*/
