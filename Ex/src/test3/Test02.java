@@ -25,7 +25,7 @@ class King{
 		this("정조");
 		this.year = year;
 	}
-	
+
 	public King(String name) {
 		this.name = name;
 	}
