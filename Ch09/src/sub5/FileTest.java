@@ -17,7 +17,7 @@ public class FileTest {
 	public static void main(String[] args) {
 		
 		String path1 = "C:\\Users\\Java\\Desktop\\file1.txt";
-		String path2 = "C:\\Users\\Java\\Desktop\\file2";
+		String path2 = "../../../../../file2";
 		
 		// 파일 객체 생성
 		File f1 = new File(path1);
