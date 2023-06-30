@@ -1,4 +1,4 @@
-package javaio.is;
+package javaio.ins;
 
 import java.io.IOException;
 import java.io.InputStream;
