@@ -20,7 +20,7 @@ public class Test03 {
 			System.out.println("문자열을 입력해 주세요>>");
 			String str = sc.next();
 			
-			if(str.equals(java)) {
+			if(str.contains(java)) {
 				System.out.println("> java가 존재합니다.");
 				System.err.println("> 시스템을 종료합니다.");
 				break;
