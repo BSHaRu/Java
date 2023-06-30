@@ -20,8 +20,10 @@ public class Test05_split_wrapper {
 		int total = 0;
 		
 		for(int i=0; i<scores.length; i++) {
-			//  Integer.parseInt(scores[i]); 쓰는게 더 명확
-			// valueOf의 리턴타입 : Wrpper형
+			// parseInt()의 리턴타입 : Int타입
+			// -> 정수 값을 사용 할 때 주로 사용
+			// valueOf() 의 리턴타입 : Wrpper형
+			// -> 정수 값을 객체로 사용 할 때 사용
 			total += Integer.valueOf(scores[i]);
 //			System.out.println(total);
 		}
