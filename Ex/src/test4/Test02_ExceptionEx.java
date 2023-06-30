@@ -24,6 +24,9 @@ public class Test02_ExceptionEx {
 		int find = sc.nextInt();
 		
 		try {
+			// 자체적으로 throws로 던져버리니깐 catch로 잡을수가 없음
+			// -> NotFound 클래스를 만들어서 거기다 던져놓고
+			// NotFound시 catch에서 잡아내는거임 
 			searchArray(find, arr);
 			System.out.println("해당하는 숫자 찾음!!");
 		} catch (NotFoundException e) {
@@ -31,11 +34,9 @@ public class Test02_ExceptionEx {
 		}finally {
 			sc.close();
 		}
-		
 		System.out.println("프로그램 정상 종료..");
-		
-	}
-
+	} // main end
+	 
 	private static void searchArray(int find, int[] arr) 
 									throws NotFoundException {
 		for(int i : arr) {
@@ -44,5 +45,5 @@ public class Test02_ExceptionEx {
 			}
 		} // for end
 		throw new NotFoundException();
-	}// main end
+	}
 }

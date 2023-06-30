@@ -6,7 +6,7 @@ package test4;
  *  -> 결국 indexof 활용 문제네
  */
 
-public class Test03_indexof {
+public class Test03_IndexOf {
 
 	public static void main(String[] args) {
 		String fileName = "자바 프로그래밍.pdf";

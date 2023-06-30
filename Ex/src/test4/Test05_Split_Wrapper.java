@@ -6,7 +6,7 @@ package test4;
  */
 
 
-public class Test05_split_wrapper {
+public class Test05_Split_Wrapper {
 
 	public static void main(String[] args) {
 		String strCsv = "60,72,82,86,92";

@@ -23,7 +23,6 @@ public class Test07_Collections01 {
 		
 		for(int i = 0; i < size; i++) {
 			int score = scoreList.get(i);
-			
 			total += score;
 			
 			System.out.print(score);
@@ -52,7 +51,6 @@ public class Test07_Collections01 {
 //			scoreList.get(num);
 //			System.out.println(scoreList.get(num));
 		}
-		
 		return scoreList;
-	}
+	} // createlist end
 }

@@ -51,11 +51,11 @@ class Grape extends Object{
 	}
 }
 
-public class Test06_instanceof {
+public class Test06_InstanceOf {
 
 	public static void main(String[] args) {
 		
-		Test06_instanceof test = new Test06_instanceof();
+		Test06_InstanceOf test = new Test06_InstanceOf();
 		
 		Apple apple = new Apple("한국", 3000);
 		Banana banana = new Banana("필리핀", 2000);

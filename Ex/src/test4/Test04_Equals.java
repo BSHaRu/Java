@@ -7,7 +7,7 @@ import java.util.Scanner;
  * 내용 : 문자열 연습문제
  */
 
-public class Test04_equals {
+public class Test04_Equals {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
