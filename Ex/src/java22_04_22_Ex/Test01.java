@@ -19,6 +19,8 @@ public class Test01 {
 		}
 		average = sum / 5; 
 		System.out.printf("평균 성적은 %d입니다.", average);
+		
+		sc.close();
 	}
 
 }

@@ -76,6 +76,7 @@ public class Test04 {
 			}
 			System.out.println();
 		}
+		sc.close();
 		 
-	}
+	} // main end
 }
