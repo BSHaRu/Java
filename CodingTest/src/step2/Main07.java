@@ -13,7 +13,7 @@ import java.util.Scanner;
  *  3개 주사위의 나온 눈이 주어질 때 상금 계산 프로그램 작성
  *  
  *  입력 3 3 6	| 2 2 2	| 6 2 5
- *  출력 1300		| 12000 | 600
+ *  출력 1300	| 12000 | 600
  */
 
 public class Main07 {
@@ -40,7 +40,7 @@ public class Main07 {
 
 	public static void main(String[] args) {
 
-		// random으로 받지으면 안되고, 입력해서 받아야된다고함
+		// random으로 받으면 안되고, 입력해서 받아야된다고함
 //		List<Integer> list = new ArrayList<>();
 //		for(int i=0; i<3; i++) {
 //			list.add((int)(Math.random()*6)+1);
