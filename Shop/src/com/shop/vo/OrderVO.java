@@ -9,7 +9,7 @@ public class OrderVO {
 	
 	// 추가 필드
 	private String name;
-	private String ProdName;
+	private String prodName;
 	
 	// 추가 getter setter
 	public String getName() {
@@ -19,10 +19,10 @@ public class OrderVO {
 		this.name = name;
 	}
 	public String getProdName() {
-		return ProdName;
+		return prodName;
 	}
 	public void setProdName(String prodName) {
-		ProdName = prodName;
+		this.prodName = prodName;
 	}
 	
 	
@@ -60,7 +60,7 @@ public class OrderVO {
 	public String toString() {
 		return "[" + orderNo 
 				+ ", " + name 
-				+ ", " + ProdName
+				+ ", " + prodName
 				+ ", " + orderCount 
 				+ "개, " + orderDate + "]";
 	}

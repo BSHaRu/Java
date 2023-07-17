@@ -23,7 +23,7 @@ public class ProductDAO extends DBHelper {
 	}
 	
 	public ProductVO selectProduct(int prodNo) {
-		ProductVO vo = new ProductVO(); 
+		ProductVO vo = null; 
 		
 		try {
 			conn = getConnection();
@@ -33,6 +33,7 @@ public class ProductDAO extends DBHelper {
 			rs = psmt.executeQuery();
 			
 			if(rs.next()) {
+				vo = new ProductVO();
 				vo.setProdNo(rs.getInt(1));
 				vo.setProdName(rs.getString(2));
 				vo.setStock(rs.getInt(3));

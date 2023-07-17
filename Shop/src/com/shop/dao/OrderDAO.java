@@ -57,7 +57,9 @@ public class OrderDAO extends DBHelper {
 				vo.setOrderId(rs.getString(2));
 				vo.setOrderProduct(rs.getInt(3));
 				vo.setOrderCount(rs.getInt(4));
-				// 날짜를 가져오는데, 시,분까지만 가져올꺼임
+				// 날짜를 가져오는데 시,분까지만 가져올꺼임
+				// substring이 java에서는 인덱스 번호지만,
+				// sql에서는 시작번호임 잘 구별 하셈
 				vo.setOrderDate(rs.getString(5).substring(0, 16));
 				vo.setName(rs.getString(6));
 				vo.setProdName(rs.getString(7));
