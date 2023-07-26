@@ -51,7 +51,7 @@ Java 기초부터 다시 코딩 중
   5. Data
   6. Reqular
 ```
-## Ch08. Generic & Memory & Collections Framework
+## Ch08. Generic & Memory & Collections
 ```
   1. Generic
   2. Queue & Stack
